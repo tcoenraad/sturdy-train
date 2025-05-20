@@ -1,22 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-    <title>twancoenraad.nl</title>
-    <link rel="icon" type="image/x-icon" href="favicon.webp" />
-    <style>
-        /* Set the body to use the background image, covering the entire viewport */
-        body {
-            margin: 0; /* Remove default margin */
-            height: 100vh; /* Full viewport height */
-            background-image: url('background.webp'); /* Link to your background image */
-            background-size: cover; /* Cover the entire page */
-            background-position: center; /* Center the background image */
-            background-repeat: no-repeat; /* Do not repeat the image */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Twan Coenraad</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 50px;
+    }
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 28px;
+    }
+    .links {
+      margin-top: 20px;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #444;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .links a:hover {
+      background-color: #666;
+    }
+  </style>
 </head>
 <body>
-    <!-- Content of the page can go here -->
+  <img src="profile.jpg" alt="Profile image Twan">
+  <h1>Twan</h1>
+
+  <div class="links">
+    <a href="https://bsky.app/profile/twn.cnrd.foo" target="_blank">Volg me op Bluesky</a>
+    <a href="https://infosec.exchange/@twan" target="_blank">Volg me op Mastodon</a>
+  </div>
 </body>
 </html>
-
